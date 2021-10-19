@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91aee433.chunk.css",
+    "main.js": "/static/js/main.84617dba.chunk.js",
+    "main.js.map": "/static/js/main.84617dba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
+    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
+    "static/js/2.07faa979.chunk.js": "/static/js/2.07faa979.chunk.js",
+    "static/js/2.07faa979.chunk.js.map": "/static/js/2.07faa979.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.91aee433.chunk.css.map": "/static/css/main.91aee433.chunk.css.map",
+    "static/js/2.07faa979.chunk.js.LICENSE.txt": "/static/js/2.07faa979.chunk.js.LICENSE.txt",
+    "static/media/Group 1329.1beb7077.png": "/static/media/Group 1329.1beb7077.png",
+    "static/media/ITHelp.6b80ff43.png": "/static/media/ITHelp.6b80ff43.png",
+    "static/media/animalShelter.b5645ae2.png": "/static/media/animalShelter.b5645ae2.png",
+    "static/media/babySit.c82c7c35.png": "/static/media/babySit.c82c7c35.png",
+    "static/media/birdHouse.e699115c.png": "/static/media/birdHouse.e699115c.png",
+    "static/media/childSupport.ed7bb042.png": "/static/media/childSupport.ed7bb042.png",
+    "static/media/cleanWater.e3f32d24.png": "/static/media/cleanWater.e3f32d24.png",
+    "static/media/clearnPark.da7ce046.png": "/static/media/clearnPark.da7ce046.png",
+    "static/media/clothSwap.12c91b40.png": "/static/media/clothSwap.12c91b40.png",
+    "static/media/driveSafety.b9917a20.png": "/static/media/driveSafety.b9917a20.png",
+    "static/media/foodCharity.807ec88c.png": "/static/media/foodCharity.807ec88c.png",
+    "static/media/libraryBooks.2050b918.png": "/static/media/libraryBooks.2050b918.png",
+    "static/media/musicLessons.dca8db4b.png": "/static/media/musicLessons.dca8db4b.png",
+    "static/media/newBooks.19272f2c.png": "/static/media/newBooks.19272f2c.png",
+    "static/media/Home.css": "/static/media/office.ec96e84b.jpg",
+    "static/media/refuseShelter.a24f095d.png": "/static/media/refuseShelter.a24f095d.png",
+    "static/media/stuffedAnimals.36df6bf4.png": "/static/media/stuffedAnimals.36df6bf4.png",
+    "static/media/voteRegister.bb644af9.png": "/static/media/voteRegister.bb644af9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2e8e232.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.07faa979.chunk.js",
+    "static/css/main.91aee433.chunk.css",
+    "static/js/main.84617dba.chunk.js"
+  ]
+}
