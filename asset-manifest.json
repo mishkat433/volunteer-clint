@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mishkat433/volunteer-clint/static/css/main.1e5ad5ef.chunk.css",
-    "main.js": "/mishkat433/volunteer-clint/static/js/main.84617dba.chunk.js",
-    "main.js.map": "/mishkat433/volunteer-clint/static/js/main.84617dba.chunk.js.map",
+    "main.js": "/mishkat433/volunteer-clint/static/js/main.cd16227c.chunk.js",
+    "main.js.map": "/mishkat433/volunteer-clint/static/js/main.cd16227c.chunk.js.map",
     "runtime-main.js": "/mishkat433/volunteer-clint/static/js/runtime-main.4259386b.js",
     "runtime-main.js.map": "/mishkat433/volunteer-clint/static/js/runtime-main.4259386b.js.map",
     "static/css/2.c1256375.chunk.css": "/mishkat433/volunteer-clint/static/css/2.c1256375.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.c1256375.chunk.css",
     "static/js/2.07faa979.chunk.js",
     "static/css/main.1e5ad5ef.chunk.css",
-    "static/js/main.84617dba.chunk.js"
+    "static/js/main.cd16227c.chunk.js"
   ]
 }
