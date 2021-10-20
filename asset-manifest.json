@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/volunteer-clint/static/css/main.db165b11.chunk.css",
-    "main.js": "/volunteer-clint/static/js/main.cd16227c.chunk.js",
-    "main.js.map": "/volunteer-clint/static/js/main.cd16227c.chunk.js.map",
+    "main.js": "/volunteer-clint/static/js/main.077f498e.chunk.js",
+    "main.js.map": "/volunteer-clint/static/js/main.077f498e.chunk.js.map",
     "runtime-main.js": "/volunteer-clint/static/js/runtime-main.14bb9c3b.js",
     "runtime-main.js.map": "/volunteer-clint/static/js/runtime-main.14bb9c3b.js.map",
     "static/css/2.c1256375.chunk.css": "/volunteer-clint/static/css/2.c1256375.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.c1256375.chunk.css",
     "static/js/2.07faa979.chunk.js",
     "static/css/main.db165b11.chunk.css",
-    "static/js/main.cd16227c.chunk.js"
+    "static/js/main.077f498e.chunk.js"
   ]
 }
