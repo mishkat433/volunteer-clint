@@ -34,14 +34,12 @@ const Register = (props) => {
         }
         even.preventDefault()
     }
-    
     const changeHandle=(e)=>{
         const newData = { ...formData }
         newData[e.target.name] = e.target.value
         setFormData(newData)
 
     }
-console.log(formData)
     return (
         <div className="container">
             <div className="mb-4 bg-light">
