@@ -1,0 +1,10 @@
+.heading{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.bar{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

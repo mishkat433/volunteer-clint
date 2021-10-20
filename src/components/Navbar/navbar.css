@@ -1,0 +1,18 @@
+.logo{
+    height: 50px;
+    width: 120px;
+
+}
+div#navbarSupportedContent {
+    justify-content: flex-end;
+}
+.hover{
+    color: rgb(31, 30, 30);
+    margin-right: 20px;
+}
+.hover:hover{
+    background-color: rgb(49, 130, 236);
+    border-radius: 4px;
+    color: white;
+
+}

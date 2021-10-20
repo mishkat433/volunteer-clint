@@ -1,0 +1,25 @@
+.popUp{
+    height: 450px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+.inp input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.inp button{
+    display: block;
+    margin: 0 auto;
+}
+.logo-img{
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+    width: 140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}

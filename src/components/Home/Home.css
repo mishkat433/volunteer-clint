@@ -1,0 +1,7 @@
+.back-img{
+    background: linear-gradient(rgba(255, 255, 255, 0.932),rgba(255, 255, 255, 0.938)),url("../../images/office.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

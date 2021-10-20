@@ -1,0 +1,21 @@
+.ing{
+    position: relative;
+    
+}
+.titl{
+position: absolute;
+height: 80px;
+width: 100%;
+bottom: 0;
+left: 0;
+border-radius: 0px 0px 10px 10px;
+font-size: 12px;
+}
+.cli{
+    cursor: pointer;
+}
+.cli:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+
+}

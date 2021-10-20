@@ -1,0 +1,22 @@
+
+.user{
+    margin-left: 25px;
+}
+.user{
+    cursor: pointer;
+}
+.user:hover{
+    color: blue;
+}
+.gap{
+    background-color: rgb(226, 227, 248);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+table.table.table-borderless.bg-white {
+    width: 1015px;
+}
+.cursor{
+    cursor: pointer;
+}
