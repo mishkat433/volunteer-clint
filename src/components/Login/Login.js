@@ -29,7 +29,7 @@ const Login = () => {
             .catch((error) => {
                 console.log(error.message);
             });
-    }
+        }
 
     const storeAuthToken = () => {
         getAuth().currentUser.getIdToken(/* forceRefresh */ true)
