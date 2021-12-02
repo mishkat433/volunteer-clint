@@ -6,7 +6,8 @@ import "./Author.css"
 
 const Author = () => {
    const [loginUser, setLoginUser]= useContext(UserContext)
-    const [workList, setWorkList] = useState([])
+    const [workList, setWorkList] = useState([]) 
+
     useEffect(()=>{
         fetch("https://afternoon-oasis-46092.herokuapp.com/showWorkList?email="+loginUser.email,{
             method: "GET",
@@ -18,7 +19,6 @@ const Author = () => {
         .then(res=>res.json())
             .then(data =>setWorkList(data)) 
     },[])
-
     
     return (
         <div className="container">

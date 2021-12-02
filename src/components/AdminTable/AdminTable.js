@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AdminTable = ({allData}) => {
+const AdminTable = ({ allData, spinner}) => {
 
     const deleteVolunteer=(id)=>{
         fetch(`https://afternoon-oasis-46092.herokuapp.com/delete/${id}`, {
@@ -14,9 +14,10 @@ const AdminTable = ({allData}) => {
         })
     }
 
-
+console.log(spinner)
     return (
         <div>
+            
             <table className="table table-borderless bg-white">
                 <thead>
                     <tr>
@@ -28,6 +29,9 @@ const AdminTable = ({allData}) => {
                     </tr>
                 </thead>
                 <tbody>
+                    {
+                        spinner && <p className="text-center mt-4">loading...</p>
+                    }
                     {
                         allData.map((items, index) =>
 

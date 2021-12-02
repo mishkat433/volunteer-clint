@@ -8,10 +8,14 @@ const Admin = () => {
     const [loginUser, setLoginUser]= useContext(UserContext)
     const [clicking, setClicking] = useState(true)
     const [allData, setAllData] = useState([])
+    const [spinne, setSpinner] = useState(true)
     useEffect(()=>{
         fetch("https://afternoon-oasis-46092.herokuapp.com/adminPage?email="+loginUser.email)
         .then(res=>res.json())
-        .then(data=>setAllData(data))
+        .then(data=>{
+            setAllData(data)
+            setSpinner(false)
+        })
     },[])
 
     const dataTableHandle=()=>{
@@ -36,7 +40,7 @@ const Admin = () => {
                 </div>
                 <div className="col-lg-9  gap">
                     {
-                        clicking ? <AdminTable allData={allData}></AdminTable>:
+                        clicking ? <AdminTable allData={allData} key={allData._id} spinner={spinne}></AdminTable>:
                         <AdminForm></AdminForm>
                     }
                    
