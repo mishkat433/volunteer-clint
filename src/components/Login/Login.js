@@ -26,9 +26,11 @@ const Login = () => {
                 loginSuccess.email= result.user.email
                 setLoginUser(loginSuccess)
                 storeAuthToken()
+                setErrorMessage(null)
             })
             .catch((error) => {
                 console.log(error.message);
+                setErrorMessage(error.message)
             });
         }
 
@@ -51,11 +53,11 @@ const Login = () => {
                 sessionStorage.setItem("token", idToken)
                 history.replace(from)
                 console.log(idToken)
-                setErrorMessage(null)
+                
             })
             .catch(function (error) {
                 console.log(error.message)
-                setErrorMessage(error.message)
+                
             });
     }
     
