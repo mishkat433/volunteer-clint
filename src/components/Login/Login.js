@@ -1,4 +1,4 @@
-import React, { useContext} from 'react';
+import React, { useContext, useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import "./Login.css";
 import google from "../../logos/google.png"
@@ -14,6 +14,7 @@ const Login = () => {
     let location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
 
+    const [errorMessage, setErrorMessage] = useState(null)
     firebase.initializeApp(firebaseConfig)
     const loginHandle=()=>{
         const provider = new GoogleAuthProvider();
@@ -50,9 +51,11 @@ const Login = () => {
                 sessionStorage.setItem("token", idToken)
                 history.replace(from)
                 console.log(idToken)
+                setErrorMessage(null)
             })
             .catch(function (error) {
                 console.log(error.message)
+                setErrorMessage(error.message)
             });
     }
     
@@ -66,6 +69,10 @@ const Login = () => {
                     <input type="email" name="email" pl/>
                 </form> */}
                 <p className="text-center mt-3">Don't have an account? <a href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp" target="_blank">create an account</a></p>
+
+                {
+                    errorMessage && <p>{errorMessage}</p>
+                }
             </div>
         </div>
     );
