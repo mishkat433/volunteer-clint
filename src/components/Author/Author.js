@@ -18,7 +18,7 @@ const Author = () => {
         })
             .then(res => res.json())
             .then(data => setWorkList(data))
-    }, [])
+    }, [loginUser.email])
 
     return (
         <div className="container">
@@ -31,7 +31,7 @@ const Author = () => {
             </div>
             {setLoginUser}
 
-        </div>
+        </div >
     );
 };
 

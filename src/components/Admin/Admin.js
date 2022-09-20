@@ -18,11 +18,10 @@ const Admin = () => {
                 setAllData(data)
                 setSpinner(false)
             })
-    }, [setLoginUser])
+    }, [loginUser.email])
 
     const dataTableHandle = () => {
         setClicking(true)
-        setLoginUser("alaska")
     }
 
     const addVolunteer = () => {
@@ -49,6 +48,7 @@ const Admin = () => {
 
                 </div>
             </div>
+            {setLoginUser}
         </div>
     );
 };
