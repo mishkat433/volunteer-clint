@@ -1,23 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const AdminTable = ({ allData, spinner}) => {
+const AdminTable = ({ allData, spinner }) => {
 
-    const deleteVolunteer=(id)=>{
+    const deleteVolunteer = (id) => {
         fetch(`https://afternoon-oasis-46092.herokuapp.com/delete/${id}`, {
             method: "DELETE"
         })
-        .then(res => res.json())
-        .then(result => {
-            if (result) {
-                alert("delete successfull")
-            }
-        })
+            .then(res => res.json())
+            .then(result => {
+                if (result) {
+                    alert("delete successfull")
+                }
+            })
     }
 
-console.log(spinner)
+    console.log(spinner)
     return (
         <div>
-            
+
             <table className="table table-borderless bg-white">
                 <thead>
                     <tr>
@@ -40,7 +40,7 @@ console.log(spinner)
                                 <td>{items.email}</td>
                                 <td>{items.date}</td>
                                 <td>{items.work}</td>
-                                <td onClick={()=>deleteVolunteer(items._id)} className="cursor"><i className="fas fa-trash"></i></td>
+                                <td onClick={() => deleteVolunteer(items._id)} className="cursor"><i className="fas fa-trash"></i></td>
                             </tr>
                         )
                     }

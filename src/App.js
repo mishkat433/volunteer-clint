@@ -14,42 +14,42 @@ export const UserContext = createContext();
 const App = () => {
   const [loginUser, setLoginUser] = useState({
     name: "",
-    email: "",
+    email: " ",
     photo: "",
-    selectWork:""
+    selectWork: ""
   });
   return (
     <div>
       <UserContext.Provider value={[loginUser, setLoginUser]}>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <PrivateRoute path="/register">
-            <Register></Register>
-          </PrivateRoute>
-         
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <PrivateRoute path="/author">
-            <Author></Author>
-          </PrivateRoute>
-          {
-            loginUser.email=="mishkat5826@gmail.com"?
-              <PrivateRoute path="/admin">
-                <Admin></Admin>
-              </PrivateRoute> :
-              <Route path="*">
-                <NotFound not={"Please login ADMIN and try again"}></NotFound>
-              </Route>
-          }
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-      </Router>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <PrivateRoute path="/register">
+              <Register></Register>
+            </PrivateRoute>
+
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <PrivateRoute path="/author">
+              <Author></Author>
+            </PrivateRoute>
+            {
+              loginUser.email === "mishkat5826@gmail.com" ?
+                <PrivateRoute path="/admin">
+                  <Admin></Admin>
+                </PrivateRoute> :
+                <Route path="*">
+                  <NotFound not={"Please login ADMIN and try again"}></NotFound>
+                </Route>
+            }
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+        </Router>
       </UserContext.Provider>
     </div>
   );
