@@ -35,7 +35,7 @@ const volunteerInfo = [
     },
     {
         id: 4,
-        name: 'foster a shelter animal',
+        name: 'Animal Shalter',
         pic: animalShelter
     },
     {
